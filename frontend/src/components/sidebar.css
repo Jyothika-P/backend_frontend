@@ -1,0 +1,32 @@
+.sidebar{
+    width: 18rem;
+    height: 97vh;
+    border-right: 3px solid #5F6A85;
+    background-color: #121735;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.links > div{
+    padding: 10px 25px;
+    color: #5F6A85;;
+}
+
+.sidebar .logo{
+    padding: 30px 25px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-name{
+    vertical-align: 3px;
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
